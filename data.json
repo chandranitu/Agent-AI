@@ -1,0 +1,20 @@
+{
+  "fastag": "FASTag is an RFID-based toll collection system in India.",
+  "toll system": "A toll system processes vehicle entries and completes payment transactions.",
+  "spring boot": "Spring Boot is a Java framework for building microservices.",
+  "nlp": "NLP stands for Natural Language Processing.",
+  "embedding": "Embeddings convert text into numerical vectors for similarity search.",
+  "rag": "RAG improves LLM accuracy by providing retrieved context.",
+  "mongodb": "MongoDB is a NoSQL document database.",
+  "postgresql": "PostgreSQL is a powerful relational database.",
+  "redis": "Redis is an in-memory key-value store used for caching.",
+  "hadoop": "Hadoop is a distributed big-data processing framework.",
+  "spark": "Apache Spark is used for fast distributed computing.",
+  "aws": "AWS provides cloud computing services and infrastructure.",
+  "docker": "Docker packages applications in lightweight containers.",
+  "kubernetes": "Kubernetes orchestrates and manages containers.",
+  "python": "Python is a high-level programming language for AI and automation.",
+  "java": "Java is a platform-independent object-oriented language.",
+  "hi": "Welcome to Agentic AI.",
+  "hello": "Hello! How can I help you today?"
+}
