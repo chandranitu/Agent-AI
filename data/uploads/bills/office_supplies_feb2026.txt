@@ -1,0 +1,24 @@
+=====================================
+SHARMA OFFICE SUPPLIES PVT LTD
+=====================================
+Invoice No  : SOS-2026-0234
+Date        : 28-Feb-2026
+Due Date    : 14-Mar-2026
+
+Billed To   : Chandra Enterprises
+             Plot 45, MIDC, Pimpri-Chinchwad
+
+Items:
+-------------------------------------------
+1. A4 Paper Ream (10 packs)    Rs.  1,200.00
+2. Printer Ink Cartridge (4)   Rs.  2,400.00
+3. Stapler + Pins              Rs.    350.00
+4. Pens Box (5 dozen)          Rs.    480.00
+5. File Folders (50 pcs)       Rs.    625.00
+-------------------------------------------
+Subtotal                       Rs.  5,055.00
+GST 12%                        Rs.    606.60
+-------------------------------------
+TOTAL AMOUNT DUE               Rs.  5,661.60
+=====================================
+Payment Status : UNPAID

@@ -1,0 +1,24 @@
+=====================================
+AMAZON WEB SERVICES INDIA PVT LTD
+=====================================
+Invoice No  : AWS-IN-2026-03-119283
+Invoice Date: 10-Mar-2026
+Due Date    : 05-Apr-2026
+
+Account     : Chandra Enterprises
+Account ID  : 1234-5678-9012
+
+Services Used (Feb 2026):
+-------------------------------------------
+EC2 Instances (t3.medium x2)  Rs.  4,200.00
+RDS PostgreSQL (db.t3.micro)  Rs.  2,100.00
+S3 Storage (500 GB)           Rs.    875.00
+Data Transfer                 Rs.    320.00
+CloudWatch Logs               Rs.    105.00
+-------------------------------------------
+Subtotal                      Rs.  7,600.00
+GST 18%                       Rs.  1,368.00
+-------------------------------------
+TOTAL AMOUNT DUE              Rs.  8,968.00
+=====================================
+Payment Status : UNPAID

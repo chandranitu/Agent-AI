@@ -1,0 +1,26 @@
+=====================================
+MSEB - MAHARASHTRA STATE ELECTRICITY
+=====================================
+Bill No     : MSEB-2026-03-4521
+Bill Date   : 01-Mar-2026
+Due Date    : 15-Mar-2026
+
+Consumer Name   : Chandra Enterprises
+Consumer No     : 104521876
+Address         : Plot 45, MIDC, Pimpri-Chinchwad, Pune - 411018
+
+Previous Reading : 14520 units
+Current Reading  : 14980 units
+Units Consumed   : 460 units
+
+Energy Charges   : Rs. 2,760.00
+Fixed Charges    : Rs.   200.00
+Tax (18% GST)    : Rs.   532.80
+Late Fee         : Rs.     0.00
+-------------------------------------
+TOTAL AMOUNT DUE : Rs. 3,492.80
+=====================================
+Payment Status   : UNPAID
+Bank Account     : MSEB Bank A/C 00112233
+UPI              : mseb@upi
+=====================================

@@ -1,0 +1,22 @@
+=====================================
+RELIANCE JIO FIBER
+=====================================
+Invoice No  : JIO-INV-2026-78432
+Invoice Date: 05-Mar-2026
+Due Date    : 20-Mar-2026
+
+Account Holder : Chandra Enterprises
+Account No     : JIO-PUN-98765
+Address        : Plot 45, MIDC, Pimpri-Chinchwad
+
+Plan           : JIO Fiber Business 1Gbps
+Billing Period : 01-Feb-2026 to 28-Feb-2026
+
+Plan Charges   : Rs. 1,499.00
+GST (18%)      : Rs.   269.82
+Discount       : Rs.  -100.00
+-------------------------------------
+TOTAL AMOUNT   : Rs. 1,668.82
+=====================================
+Payment Status : UNPAID
+
