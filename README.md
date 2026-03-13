@@ -11,9 +11,13 @@ real data. The system never fabricates content.
  source /home/hadoop/venv-claude/bin/activate
  deactivate
 
-- test postgres
+# run postgres
+sudo docker run -d --name postgres18 -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres postgres:18.1 postgres
+sudo docker exec -it postgres18 bash
+psql -U postgres
+create database test;
 
--pip install -r requirements.txt
+#pip install -r requirements.txt
 OR
 Start.sh
 
