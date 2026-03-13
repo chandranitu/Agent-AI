@@ -1,0 +1,35 @@
+================================================
+             ORDER CONFIRMATION
+================================================
+Order No     : ORD-2026-002
+Order Date   : 05-Mar-2026
+Expected Date: 20-Mar-2026
+Status       : Pending
+
+CUSTOMER DETAILS
+----------------
+Name         : Beta Solutions Pvt Ltd
+Contact      : Ms. Priya Mehta
+Phone        : +91-9823456789
+Email        : priya@betasolutions.in
+Address      : 45 Tech Park, Hinjewadi, Pune - 411057
+
+ITEMS ORDERED
+------------------------------------------------
+Sr  Item Description        Qty   Rate    Amount
+------------------------------------------------
+1   Laptop Stand Aluminium   10   Rs.899  Rs.  8,990
+2   USB Hub 7-Port           10   Rs.599  Rs.  5,990
+3   Wireless Mouse           15   Rs.449  Rs.  6,735
+4   HDMI Cable 2m            20   Rs.199  Rs.  3,980
+------------------------------------------------
+                    Subtotal     Rs. 25,695
+                    GST 18%      Rs.  4,625
+                    Freight      Rs.    250
+------------------------------------------------
+                    TOTAL        Rs. 30,570
+================================================
+Payment Terms : Advance 50% + 50% on delivery
+Payment Status: PARTIALLY PAID (Rs. 15,285 received)
+Balance Due   : Rs. 15,285
+================================================

@@ -29,7 +29,7 @@ python3 -m http.server 8080 --directory gui
 http://0.0.0.0:8080/
 
 --restart API
-fuser -k 8000/tcp && cd ~/claude/api && python main.py
+fuser -k 8000/tcp && cd ~/Agent-AI/api && python main.py
 
 
 ComponentURLStatusGUI http://localhost:8080✅
@@ -38,9 +38,9 @@ Swagger docs http://localhost:8000/api/docs✅
 PostgreSQL localhost:5432✅
 
 # 
-mkdir -p ~/claude/data/uploads/orders
-mkdir -p ~/claude/data/uploads/bills
-mkdir -p ~/claude/data/uploads/reports
+mkdir -p ~/Agent-AI/data/uploads/orders
+mkdir -p ~/Agent-AI/data/uploads/bills
+mkdir -p ~/Agent-AI/data/uploads/reports
 
 
 ## Architecture

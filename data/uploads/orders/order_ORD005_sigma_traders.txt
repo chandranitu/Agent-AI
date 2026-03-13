@@ -1,0 +1,35 @@
+================================================
+             ORDER CONFIRMATION
+================================================
+Order No     : ORD-2026-005
+Order Date   : 11-Mar-2026
+Expected Date: 25-Mar-2026
+Status       : Pending
+
+CUSTOMER DETAILS
+----------------
+Name         : Sigma Traders
+Contact      : Ms. Sunita Kulkarni
+Phone        : +91-9871234560
+Email        : sunita@sigmatraders.in
+Address      : Shop 12, Market Yard, Solapur - 413001
+
+ITEMS ORDERED
+------------------------------------------------
+Sr  Item Description        Qty   Rate    Amount
+------------------------------------------------
+1   Cotton Fabric (metres)  200   Rs.180  Rs. 36,000
+2   Polyester Blend (metres)150   Rs.220  Rs. 33,000
+3   Thread Spools (box)      10   Rs.350  Rs.  3,500
+4   Packaging Material        5  Rs.1200  Rs.  6,000
+------------------------------------------------
+                    Subtotal     Rs. 78,500
+                    GST 5%       Rs.  3,925
+                    Freight      Rs.  1,200
+------------------------------------------------
+                    TOTAL        Rs. 83,625
+================================================
+Payment Terms : Net 30 days
+Payment Status: UNPAID
+Special Note  : Customer requested delivery before 25-Mar-2026
+================================================

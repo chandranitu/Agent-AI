@@ -1,0 +1,37 @@
+================================================
+             ORDER CONFIRMATION
+================================================
+Order No     : ORD-2026-001
+Order Date   : 01-Mar-2026
+Delivery Date: 10-Mar-2026
+Status       : Delivered
+
+CUSTOMER DETAILS
+----------------
+Name         : Acme Corp
+Contact      : Mr. Rajesh Sharma
+Phone        : +91-9876543210
+Email        : rajesh@acmecorp.com
+Address      : 101 Industrial Area, Pune - 411001
+
+ITEMS ORDERED
+------------------------------------------------
+Sr  Item Description        Qty   Rate    Amount
+------------------------------------------------
+1   Industrial Bolts M10    500   Rs. 12  Rs.  6,000
+2   Steel Pipe 2inch        100   Rs. 85  Rs.  8,500
+3   Welding Rods Box         20   Rs.450  Rs.  9,000
+4   Safety Gloves Pair       50   Rs. 95  Rs.  4,750
+5   Grease Cartridge         30   Rs.120  Rs.  3,600
+------------------------------------------------
+                    Subtotal     Rs. 31,850
+                    GST 18%      Rs.  5,733
+                    Freight      Rs.    500
+------------------------------------------------
+                    TOTAL        Rs. 38,083
+================================================
+Payment Terms : Net 30 days
+Payment Status: PAID
+Delivered By  : BlueDart Express
+Tracking No   : BD-2026-887432
+================================================
