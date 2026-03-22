@@ -1,0 +1,35 @@
+================================================
+             ORDER CONFIRMATION
+================================================
+Order No     : ORD-2026-003
+Order Date   : 08-Mar-2026
+Expected Date: 18-Mar-2026
+Status       : Shipped
+
+CUSTOMER DETAILS
+----------------
+Name         : Gamma Ltd
+Contact      : Mr. Vikram Nair
+Phone        : +91-9765432100
+Email        : vikram@gammaltd.com
+Address      : Plot 7, MIDC Chinchwad, Pimpri - 411019
+
+ITEMS ORDERED
+------------------------------------------------
+Sr  Item Description        Qty   Rate    Amount
+------------------------------------------------
+1   Office Chair Ergonomic    5  Rs.4500  Rs. 22,500
+2   Standing Desk             2  Rs.8999  Rs. 17,998
+3   Monitor Arm               5  Rs.1299  Rs.  6,495
+------------------------------------------------
+                    Subtotal     Rs. 46,993
+                    GST 18%      Rs.  8,459
+                    Freight      Rs.    800
+------------------------------------------------
+                    TOTAL        Rs. 56,252
+================================================
+Payment Terms : Net 15 days
+Payment Status: UNPAID
+Shipped Via   : DTDC Courier
+Tracking No   : DTDC-2026-334421
+================================================

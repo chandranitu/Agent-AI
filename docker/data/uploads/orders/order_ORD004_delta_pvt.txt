@@ -1,0 +1,31 @@
+================================================
+             ORDER CONFIRMATION
+================================================
+Order No     : ORD-2026-004
+Order Date   : 10-Mar-2026
+Cancelled On : 11-Mar-2026
+Status       : Cancelled
+
+CUSTOMER DETAILS
+----------------
+Name         : Delta Pvt Ltd
+Contact      : Mr. Anil Desai
+Phone        : +91-9988776655
+Email        : anil@deltapvt.com
+Address      : 22 Commerce Zone, Nashik - 422001
+
+CANCELLATION REASON
+-------------------
+Customer requested cancellation due to budget freeze.
+Refund of advance Rs. 5,000 initiated on 11-Mar-2026.
+Refund Reference : REF-2026-00234
+
+ITEMS (CANCELLED)
+------------------------------------------------
+Sr  Item Description        Qty   Rate    Amount
+------------------------------------------------
+1   Printer LaserJet          2  Rs.8500  Rs. 17,000
+2   Ink Cartridge Set (5)    10  Rs.1200  Rs. 12,000
+------------------------------------------------
+                    TOTAL (Cancelled) Rs. 29,000
+================================================
