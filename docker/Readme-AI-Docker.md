@@ -37,7 +37,9 @@ ollama serve &
 sleep 5
 
 # Build and start all containers
-sudo docker compose up --build -d
+sudo docker compose up --build -d 
+
+sudo docker compose down
 
 #start
 sudo docker compose up -d
@@ -102,4 +104,11 @@ sudo docker cp . agent-ai-api:/app/data/uploads/orders/
 sudo docker exec agent-ai-api ls -lh /app/data/uploads/orders/
 
 
+# push image to docker hub
 
+  sudo docker login
+  docker tag docker-agenticapi:latest cnsnoida/docker-agenticapi
+  docker push cnsnoida/docker-agenticapi
+  
+  docker tag conversionservice cnsnoida/conversionservice
+  docker push cnsnoida/conversionservice

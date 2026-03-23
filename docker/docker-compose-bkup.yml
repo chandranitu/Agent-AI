@@ -25,10 +25,9 @@ services:
 
   # ── Agentic API Application ────────────────────────────────────────────────────
   agenticapi:
-    #build:
-     # context: .
-     # dockerfile: Dockerfile
-    image: cnsnoida/docker-agenticapi:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: agent-ai-api
     restart: unless-stopped
     networks:
