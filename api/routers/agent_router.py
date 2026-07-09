@@ -1,23 +1,3 @@
-"""
-routers/agent_router.py
-────────────────────────
-The AI Agent core.
-
-Architecture:
-  1. User sends a natural-language question.
-  2. Agent fetches the DB schema and file list (real context, no guessing).
-  3. Agent builds a strict prompt: "answer ONLY from the context provided."
-  4. Local Ollama LLM (llama3/mistral/phi3 etc.) generates a plan.
-  5. Agent executes each planned step: DB query OR file read.
-  6. Final answer is assembled from real retrieved data only.
-
-Zero hallucination guarantee:
-  - LLM is instructed to say "I do not have information about that"
-    if the answer cannot be found in the retrieved context.
-  - temperature=0 for deterministic responses.
-  - Every cited fact is traced back to a concrete source (DB row or file).
-"""
-
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any

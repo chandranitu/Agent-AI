@@ -1,11 +1,3 @@
-"""
-routers/file_router.py
-──────────────────────
-Serves files from the local file system.
-Extracts readable text from: PDF, DOCX, PPTX, XLSX, MD, TXT, images (OCR), video metadata.
-All processing is done locally with open-source libraries only.
-"""
-
 from fastapi import APIRouter, UploadFile, File, HTTPException, Query
 from fastapi.responses import FileResponse
 from pathlib import Path

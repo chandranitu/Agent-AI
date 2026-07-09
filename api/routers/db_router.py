@@ -1,10 +1,4 @@
-"""
-routers/db_router.py
-────────────────────
-All PostgreSQL 18.1 interactions.
-Uses psycopg3 (the modern async-capable driver, fully open-source).
-Returns ONLY data that actually exists in the database — no fabrication.
-"""
+
 
 from fastapi import APIRouter, HTTPException, Query
 from typing import Optional, List

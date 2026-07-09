@@ -1,14 +1,43 @@
-# Local Agentic AI System
+#routers/agent_router.py
+────────────────────────
+The AI Agent core.
+Architecture:
+  1. User sends a natural-language question.
+  2. Agent fetches the DB schema and file list (real context, no guessing).
+  3. Agent builds a strict prompt: "answer ONLY from the context provided."
+  4. Local Ollama LLM (llama3/mistral/phi3 etc.) generates a plan.
+  5. Agent executes each planned step: DB query OR file read.
+  6. Final answer is assembled from real retrieved data only.
 
-A fully self-hosted, zero-cloud AI agent that retrieves information from your
-PostgreSQL 18.1 database and local file system. Every answer is grounded in
+Zero hallucination guarantee:
+  - LLM is instructed to say "I do not have information about that"
+    if the answer cannot be found in the retrieved context.
+  - temperature=0 for deterministic responses.
+  - Every cited fact is traced back to a concrete source (DB row or file).
+
+routers/db_router.py
+────────────────────
+All PostgreSQL 18.1 interactions.
+Uses psycopg3 (the modern async-capable driver, fully open-source).
+Returns ONLY data that actually exists in the database — no fabrication.
+
+routers/file_router.py
+──────────────────────
+Serves files from the local file system.
+Extracts readable text from: PDF, DOCX, PPTX, XLSX, MD, TXT, images (OCR), video metadata.
+All processing is done locally with open-source libraries only.
+
+# coLab
+
+# Local Agentic AI System
+A fully self-hosted, zero-cloud AI agent that retrieves information from PostgreSQL 18.1 database and local file system. Every answer is grounded in
 real data. The system never fabricates content.
 
 ---
 
 ##python3.11
- python3.11 -m venv /home/hadoop/venv-claude
- source /home/hadoop/venv-claude/bin/activate
+ python3.11 -m venv /home/hadoop/venv-llm
+ source /home/hadoop/venv-llm/bin/activate
  deactivate
 
 # run postgres
@@ -22,7 +51,7 @@ OR
 Start.sh
 
 -- one terminal
-python api/main.py
+Agent-AI>python api/main.py
 
 --another terminal
 python3 -m http.server 8080 --directory gui
