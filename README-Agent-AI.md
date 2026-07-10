@@ -46,9 +46,9 @@ sudo docker exec -it postgres18 bash
 psql -U postgres
 create database test;
 
-#pip install -r requirements.txt
-OR
-Start.sh
+pip install -r requirements.txt
+pip install "psycopg[binary]"
+
 
 -- one terminal
 Agent-AI>python api/main.py
@@ -61,15 +61,43 @@ http://0.0.0.0:8080/
 fuser -k 8000/tcp && cd ~/Agent-AI/api && python main.py
 
 
+
 ComponentURLStatusGUI http://localhost:8080✅
 API http://localhost:8000✅
 Swagger docs http://localhost:8000/api/docs✅
 PostgreSQL localhost:5432✅
 
+
+# prompt
+------------
+total bills
+what is the total amount due on the electricity bill for march 2026
+list all unpaid bills
+which bill has the highest amount
+what is the Jio fiber bill amount
+summarise all bills
+total GST across all bills
+which vendor has sent the most bills
+
+total orders
+show all orders
+total amount of all orders
+
+
+
+
+
+
+
 # 
 mkdir -p ~/Agent-AI/data/uploads/orders
 mkdir -p ~/Agent-AI/data/uploads/bills
 mkdir -p ~/Agent-AI/data/uploads/reports
+
+
+
+
+
 
 
 ## Architecture
